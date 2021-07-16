@@ -1,3 +1,16 @@
-return(function(arg)
-    if arg ~= "sannin" then print("u suck massive cock bro...") end
-end)
+function randomString()
+	local length = math.random(10,30)
+	local array = {}
+	for i = 1, length do
+		array[i] = string.char(math.random(32, 126))
+	end
+	return table.concat(array)
+end
+local nigger = randomString()
+
+local function Check(Arg)
+    if Arg ~= "Sannin" then print("wow") return end
+    getgenv()[nigger] = true
+end
+Check(({...})[1])
+if not getgenv()[nigger] then print("very black") end
