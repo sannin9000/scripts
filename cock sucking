@@ -1,0 +1,3 @@
+return(function(arg)
+    if arg ~= "sannin" then print("u suck massive cock bro...") end
+end)
