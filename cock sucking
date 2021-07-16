@@ -6,11 +6,11 @@ function randomString()
 	end
 	return table.concat(array)
 end
-local nigger = randomString()
+local cock = randomString()
 
 local function Check(Arg)
     if Arg ~= "Sannin" then print("wow") return end
-    getgenv()[nigger] = true
+    getgenv()[cock] = true
 end
 Check(({...})[1])
-if not getgenv()[nigger] then print("very black") end
+if not getgenv()[cock] then print("very black") end
