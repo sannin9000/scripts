@@ -17,7 +17,7 @@ do
     end);
   
     if not player.Character or (player.Character and not player.Character:FindFirstChild('Fornite')) then
-        repeat wait() until plr.Character and plr.Character:FindFirstChild('Fortnite');
+        repeat wait() until player.Character and player.Character:FindFirstChild('Fortnite');
     end;
   
     player.Character.Fortnite.Disabled = true;
