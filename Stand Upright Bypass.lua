@@ -16,7 +16,7 @@ do
         return old(...);
     end);
   
-    if not player.Character or (player.Character and not player.Character:FindFirstChild('Fornite')) then
+    if not player.Character or (player.Character and not player.Character:FindFirstChild('Fortnite')) then
         repeat wait() until player.Character and player.Character:FindFirstChild('Fortnite');
     end;
   
