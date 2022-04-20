@@ -1,6 +1,7 @@
 local send_remote = game.ReplicatedStorage.Events.SpeedJump;
 local player = game.Players.LocalPlayer;
 
+--Bypass
 do
     local old;
     old = hookmetamethod(game, '__namecall', function(...)
